@@ -6,7 +6,7 @@ echo "Using exploit/ms/.../msw11_010_codered"
 # Start shell loop
 while true; do
     # Prompt
-    read -p $'msf1 exploit(\033[31mms/.../msw11_010_codered\033[0m) > ' cmd
+    read -p $'wsf1 exploit(\033[31mms/.../msw11_010_codered\033[0m) > ' cmd
 
     # Check for vulnerability search
     if [[ "$cmd" == "show options" ]]; then
