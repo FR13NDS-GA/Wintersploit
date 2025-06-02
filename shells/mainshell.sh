@@ -20,7 +20,7 @@ while true; do
         echo "  _   ____"
         echo "  0   exploit/ms/.../msw11_010_codered"
         while true; do
-            read -p "msf1 > " subcmd
+            read -p "wsf1 > " subcmd
             if [[ "$subcmd" == "use 0" ]]; then
                 chmod +x ~/Desktop/wsfconsole/shells/msw11_010_0.sh && bash ~/Desktop/wsfconsole/shells/msw11_010_0.sh
             fi
